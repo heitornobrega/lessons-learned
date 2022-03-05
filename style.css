@@ -35,6 +35,8 @@
         padding: 80px;
         border-style: solid;
         border-color: black;
+        line-height: 2;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     }
 
@@ -42,19 +44,25 @@
     padding: 80px;
     border-style: solid;
     border-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 #article {
     padding: 80px;
     border-style: solid;
     border-color: black;
+    line-height: 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
 #aside {
+    line-height: 2;
     padding: 80px;
     border-style: solid;
     border-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #rodape {
