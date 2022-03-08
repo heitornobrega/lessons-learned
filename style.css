@@ -1,27 +1,21 @@
-html{
-    background-color: rgb(253, 251, 251);
-    padding: 0 3%;
-}
-/* *{
+*{
     padding: 0;
     margin: 0;
-} */
+}
 
 #corpo{
     background-color: rgb(253, 251, 251);
     align-items: center;
     box-shadow: 0 0.3em 1em #000;
-
     }
 
 #cabecalho {
     background-color: #439775;
     position: fixed;
-    top: 3%;
-    width: auto;
+    top: 0;
+    width: 100%;
     border-style: solid;
     border-color: black;
-  
     }
 
 #titulo {
@@ -52,7 +46,9 @@ html{
     }
 
 #section {
-    padding: 80px;
+    padding: 0;
+    margin: 0;
+    border: 0;
     border-style: solid;
     border-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -89,7 +85,7 @@ html{
     }
     
 .lado-direito {
-    
+    text-align: justify;
     float: right;
     width: 30vw;
     text-align: justify;
@@ -97,6 +93,7 @@ html{
       }
       
 .lado-esquerdo {
-        display: inline-block;
-        width: 30vw;
+    text-align: justify;
+    display: inline-block;
+    width: 30vw;
       }
