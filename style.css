@@ -1,14 +1,12 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-
-#corpo{
+#corpo {
     background-color: rgb(253, 251, 251);
     align-items: center;
     box-shadow: 0 0.3em 1em #000;
-    }
-
+}
 #cabecalho {
     background-color: #439775;
     position: fixed;
@@ -16,13 +14,11 @@
     width: 100%;
     border-style: solid;
     border-color: black;
-    }
-
+}
 #titulo {
     text-align: center;
     
-    }
-
+}
 #minha_foto {
     display: block;
     margin-left: auto;
@@ -30,21 +26,16 @@
     width: 300px;
     border-style: solid;
     border-color: black;
-
     }
-
-
 #tabela {
-        margin-left: auto;
-        margin-right: auto;
-        padding: 30px;
-        border-style: solid;
-        border-color: black;
-        line-height: 2;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-    }
-
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-style: solid;
+    border-color: black;
+    line-height: 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 #section {
     padding: 0;
     margin: 0;
@@ -52,26 +43,21 @@
     border-style: solid;
     border-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
-
 #article {
     padding: 15px;
     border-style: solid;
     border-color: black;
     line-height: 2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
-
 #aside {
     line-height: 2;
     padding: 80px;
     border-style: solid;
     border-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
+    }
 #rodape {
     background-color: #439775;
     position: fixed;
@@ -82,18 +68,16 @@
     font-size: 12px;
     color: white;
     border-color: black;
-    }
-    
+}  
 .lado-direito {
     text-align: justify;
     float: right;
     width: 30vw;
     text-align: justify;
     height: auto;
-      }
-      
+}    
 .lado-esquerdo {
     text-align: justify;
     display: inline-block;
     width: 30vw;
-      }
+}
